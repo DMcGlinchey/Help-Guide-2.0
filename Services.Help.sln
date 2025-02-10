@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A1B503B3-7052-4CEC-B12C-AE6830B10405}"
+	ProjectSection(SolutionItems) = preProject
+		.tfignore = .tfignore
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Help.Core", "Services.Help.Core\Services.Help.Core.csproj", "{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Help.Test", "Services.Help.Test\Services.Help.Test.csproj", "{CB2AD362-46CA-497C-8054-CC3FB1E758ED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Help.DB", "Services.Help.DB\Services.Help.DB.csproj", "{65F0C94F-5149-4E28-BCC4-710393D0A1DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Services.Help.API", "Services.Help.API\Services.Help.API.csproj", "{FDA01604-0913-410C-8276-39B02160438F}"
+EndProject
+Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "services.help.web", "Services.Help.Web\services.help.web.esproj", "{4DD34ACE-455A-469D-870A-DB74838B706E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+		UAT|Any CPU = UAT|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.Debug|Any CPU.ActiveCfg = Development|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.Debug|Any CPU.Build.0 = Development|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.Development|Any CPU.Build.0 = Development|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.Release|Any CPU.ActiveCfg = UAT|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.Release|Any CPU.Build.0 = UAT|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.UAT|Any CPU.ActiveCfg = UAT|Any CPU
+		{EC7E03B5-0B86-4E8C-B6F7-403B735A7282}.UAT|Any CPU.Build.0 = UAT|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.Debug|Any CPU.ActiveCfg = Development|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.Debug|Any CPU.Build.0 = Development|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.Development|Any CPU.Build.0 = Development|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.Release|Any CPU.ActiveCfg = UAT|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.Release|Any CPU.Build.0 = UAT|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.UAT|Any CPU.ActiveCfg = UAT|Any CPU
+		{CB2AD362-46CA-497C-8054-CC3FB1E758ED}.UAT|Any CPU.Build.0 = UAT|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.Debug|Any CPU.ActiveCfg = Development|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.Debug|Any CPU.Build.0 = Development|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.Development|Any CPU.Build.0 = Development|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.Release|Any CPU.ActiveCfg = UAT|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.Release|Any CPU.Build.0 = UAT|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.UAT|Any CPU.ActiveCfg = UAT|Any CPU
+		{65F0C94F-5149-4E28-BCC4-710393D0A1DF}.UAT|Any CPU.Build.0 = UAT|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.Debug|Any CPU.ActiveCfg = Development|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.Debug|Any CPU.Build.0 = Development|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.Development|Any CPU.ActiveCfg = Development|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.Development|Any CPU.Build.0 = Development|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.Release|Any CPU.ActiveCfg = UAT|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.Release|Any CPU.Build.0 = UAT|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.UAT|Any CPU.ActiveCfg = UAT|Any CPU
+		{FDA01604-0913-410C-8276-39B02160438F}.UAT|Any CPU.Build.0 = UAT|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.UAT|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.UAT|Any CPU.Build.0 = Release|Any CPU
+		{4DD34ACE-455A-469D-870A-DB74838B706E}.UAT|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9DA6C9C6-03CC-4C1A-967C-0A79346B74EE}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://kolortfs02:8080/tfs/kolorcraft
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Services.Help.API\\Services.Help.API.csproj
+		SccProjectName1 = Services.Help.API
+		SccLocalPath1 = Services.Help.API
+		SccProjectUniqueName2 = Services.Help.Core\\Services.Help.Core.csproj
+		SccProjectName2 = Services.Help.Core
+		SccLocalPath2 = Services.Help.Core
+		SccProjectUniqueName3 = Services.Help.DB\\Services.Help.DB.csproj
+		SccProjectName3 = Services.Help.DB
+		SccLocalPath3 = Services.Help.DB
+		SccProjectUniqueName4 = Services.Help.Test\\Services.Help.Test.csproj
+		SccProjectName4 = Services.Help.Test
+		SccLocalPath4 = Services.Help.Test
+		SccProjectUniqueName5 = Services.Help.Web\\services.help.web.esproj
+		SccProjectName5 = Services.Help.Web
+		SccLocalPath5 = Services.Help.Web
+	EndGlobalSection
+EndGlobal
